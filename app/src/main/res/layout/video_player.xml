@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@android:color/black"
+    android:keepScreenOn="true"
+    android:id="@+id/relative"
+    >
+
+
+
+    <FrameLayout
+        android:id="@+id/video_frameLayout"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+   >
+
+
+
+
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:id="@+id/video_view"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#FF0000"
+                app:fastforward_increment="10000"
+                app:repeat_toggle_modes="one"
+                app:resize_mode="fixed_width"
+                app:scrubber_color="@color/colorPrimary"
+                app:played_color="@color/colorPrimary"
+                app:rewind_increment="10000"
+                app:show_timeout="3000"
+                app:use_controller="true"
+
+                />
+
+
+        <TextView
+            android:id="@+id/movie_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00262626"
+            android:fontFamily="@font/psbold"
+            android:gravity="center"
+
+            android:padding="5sp"
+            android:text="Intestellar"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/shit"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="visible">
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:indeterminate="true"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

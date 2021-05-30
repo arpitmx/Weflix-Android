@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "985147185290",
+    "firebase_url": "https://basicly-beta.firebaseio.com",
+    "project_id": "basicly-beta",
+    "storage_bucket": "basicly-beta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985147185290:android:956c3ca9d7407654a2f573",
+        "android_client_info": {
+          "package_name": "com.india.basiclybeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985147185290-to2jkml9jtrdngqch6o9ibitsr3n2b9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKmnI-AahbFkZwOQiIZ2gnbVzu64srTkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985147185290-to2jkml9jtrdngqch6o9ibitsr3n2b9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

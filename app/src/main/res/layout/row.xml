@@ -1,0 +1,63 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@android:color/black"
+    app:cardCornerRadius="0dp"
+
+    app:cardElevation="0dp"
+    app:contentPadding="0dp"
+   >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E50914"
+        android:paddingBottom="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rTitleTv2"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:background="#E50914"
+                android:text="WEFLIX Cinema"/>
+
+
+
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/ep_video_view"
+                app:resize_mode="fit"
+                android:backgroundTint="#000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rDisc"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="#FFFFFF"
+                android:paddingStart="5dp"
+                android:textStyle="bold"
+                android:background="#000000"
+                android:text="Total view: 20021"/>
+
+
+
+
+        </LinearLayout>
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

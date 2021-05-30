@@ -1,0 +1,38 @@
+
+<resources>
+
+<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">#000000</item>
+    <item name="colorPrimaryDark">#000</item>
+    <item name="colorAccent">#E50914</item>
+
+</style>
+
+<style name="CustomTheme" parent="Theme.AppCompat.Light">
+    <item name="colorPrimary">#000000</item>
+    <item name="colorPrimaryDark">#000</item>
+    <item name="colorAccent">#E50914</item>
+    <item name="contentInsetStart">0dp</item>
+    <item name="contentInsetEnd">0dp</item>
+</style>
+
+
+
+        <!-- Base application theme. -->
+        <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+        <style name="AppTheme.TransparentTheme">
+            <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+        </style>
+
+        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+</resources>

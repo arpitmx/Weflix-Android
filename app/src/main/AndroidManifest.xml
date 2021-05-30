@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.india.WEFLIX">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/weflixscreen"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/weflixscreen"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".VideoPlayer"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:screenOrientation="landscape" />
+        <activity android:name=".HorrorMovie" />
+        <activity android:name=".MyList" />
+        <activity android:name=".StreamingNowMainPage" />
+        <activity android:name=".MovieHomePage" />
+        <activity android:name=".MovieList" />
+        <activity
+            android:name=".Homepage"
+            android:launchMode="singleTop" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
