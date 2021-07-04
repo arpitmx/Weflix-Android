@@ -1,4 +1,4 @@
-# WeflixApp  (Under development) ⚒
+# Weflix : Social movie platform  (Under development) ⚒
  
 <p float="left">
  
