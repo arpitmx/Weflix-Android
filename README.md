@@ -1,7 +1,9 @@
 # WeflixApp  (Under development)
  
 <p float="left">
-  <img src="https://github.com/ArpitMaurya01/DELETEit/blob/master/Screenshot/Screenshot_20200614-130027_3.png" width="150" />
-  <img src="https://github.com/ArpitMaurya01/DELETEit/blob/master/Screenshot/Screenshot_20200614-130100_3.png" width="150" /> 
-  <img src="https://github.com/ArpitMaurya01/DELETEit/blob/master/Screenshot/Screenshot_20200614-131048_2.png" width="150" />
+  <img src="https://github.com/arpitmaurya/WeflixApp/blob/master/UI%20SS/photo_2021-07-03_21-32-45.jpg" width="150" />
+  <img src="https://github.com/arpitmaurya/WeflixApp/blob/master/UI%20SS/photo_2021-07-03_21-32-45.jpg" width="150" /> 
+  <img src="https://github.com/arpitmaurya/WeflixApp/blob/master/UI%20SS/photo_2021-07-03_21-32-45.jpg" width="150" />
+   <img src="https://github.com/arpitmaurya/WeflixApp/blob/master/UI%20SS/photo_2021-07-03_21-32-45.jpg" width="150" />
+   <img src="https://github.com/arpitmaurya/WeflixApp/blob/master/UI%20SS/photo_2021-07-03_21-32-45.jpg" width="150" />
 </p>
