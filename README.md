@@ -1,4 +1,4 @@
-# Weflix : Social movie platform 
+# Weflix 🍿 : Social movie platform (*UD ⚒)
 
 Weflix is a social movie streaming platform where you can host your movies from GDrive , or other hosting platforms and watch movies with your friends!
 This project is still under development ⚒ due to some circumstances.
